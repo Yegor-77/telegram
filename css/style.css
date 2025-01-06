@@ -1,0 +1,141 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+li,
+form,
+img,
+input,
+button,
+label {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 150px;
+  border: 1px solid;
+}
+/*/
+.imag {
+  position: absolute;
+  left: 20%;
+  top: 33%;
+}
+.immm {
+  position: absolute;
+  left: 22%;
+  top: 44%;
+}
+.immmag {
+  position: absolute;
+  left: 24%;
+  top: 55%;
+}
+.images {
+  position: absolute; виривається з потоку і прикріплюєтся
+  до батька. 
+  left: 50%;
+  top: 12%;
+}
+/*/
+.text {
+  color: #ff0043;
+
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 61px;
+}
+.button {
+  color: #fff;
+
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 700;
+  flex-shrink: 0;
+  border-radius: 23px;
+  background: #ff0043;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 1000px;
+  margin-top: 50px;
+  border-color: transparent;
+}
+.header {
+  display: flex;
+}
+
+.main-text {
+  color: #00194a;
+
+  font-family: "Roboto";
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 141.667%;
+  width: 552px;
+  margin-top: 170px;
+  margin-bottom: 20px;
+}
+.main-button {
+  color: #fff;
+
+  font-family: "Roboto";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 155.556%;
+  border-radius: 30px;
+  background: #ff0043;
+  width: 275px;
+  height: 60px;
+  border-color: transparent;
+  margin-bottom: 150px;
+}
+.pagws {
+  color: #00194a;
+
+  font-size: 16px;
+  font-weight: 700;
+  width: 537px;
+  margin-bottom: 50px;
+}
+.backgroup {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  color: black;
+  background-color: rgba(0, 0, 0, 0.521);
+  opacity: 1;
+}
+
+.backgroup.is-hidden {
+  opacity: 0;
+  pointer-events: 0;
+}
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 350px;
+  background-color: white;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  border-radius: 10px;
+}
+.buttonchik {
+}
+.pecko {
+}
+
+.acko {
+}
